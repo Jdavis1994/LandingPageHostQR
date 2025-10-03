@@ -1,7 +1,7 @@
 <html>
 <head><meta charset="utf-8">
 	<title>Log In</title>
-	<meta name="viewport" content="width=1368"><meta http-equiv="Content-Security-Policy" content=" default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; connect-src *;"><script defer="defer" src="https://bbr.investor.d1g1t.com/static/bundle-265-fe14d4cfa06a.js"></script><script defer="defer" src="https://bbr.investor.d1g1t.com/static/bundle-812-414cc59a1b3f.js"></script><script defer="defer" src="https://bbr.investor.d1g1t.com/static/bundle-main-9c2e61e50314.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content=" default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; connect-src *;"><script defer="defer" src="https://bbr.investor.d1g1t.com/static/bundle-265-fe14d4cfa06a.js"></script><script defer="defer" src="https://bbr.investor.d1g1t.com/static/bundle-812-414cc59a1b3f.js"></script><script defer="defer" src="https://bbr.investor.d1g1t.com/static/bundle-main-9c2e61e50314.js"></script>
 	<link href="https://bbr.investor.d1g1t.com/static/main-17fec779903182fabc07.css" rel="stylesheet" />
 	<style data-jss="" data-meta="MuiSvgIcon" type="text/css">.MuiSvgIcon-root {
   fill: currentColor;
@@ -1423,10 +1423,28 @@ label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::
 }
 	</style>
 	<link data-rh="true" href="https://bbr.investor.d1g1t.com/static/efaa8b8a675aa766369fce9784520fa4.png" rel="shortcut icon" type="image/png" />
+
+<style>
+  /* Custom layout fixes */
+  html, body { height: 100%; margin: 0; }
+  body { display: flex; flex-direction: column; min-height: 100vh; }
+  .page-main { flex: 1 0 auto; display: flex; }
+  .MuiGrid-container { align-items: center; justify-content: center; padding: 16px; gap: 16px; }
+  .logo {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    max-height: 60vh;
+    object-fit: contain;
+  }
+  @media (max-width: 960px) { .logo { max-height: 35vh; } }
+</style>
+
 </head>
 <body>
 <div></div>
-<div style="height: 100%;">
+<div class="page-main">
 <div class="E1vxyddKj03s2pZg5VFE">
 <div class="MuiGrid-root MuiGrid-container">
 <div class="MuiGrid-root R9ZUSFeUW8gadk94cwKF MuiGrid-item MuiGrid-grid-xs-6">
@@ -1434,8 +1452,6 @@ label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::
   class="logo" 
   src="https://raw.githubusercontent.com/Jdavis1994/LandingPageHostQR/main/assets/img/BBR-Final-Logo-2020-Color.png" 
   alt="Company Logo"
-  width="850"
-  height="600"
 /> </div>
 </div>
 
